@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\Repositories\Handlebars\Templates\ChildPrimaryKeyProperty.hbs" />
+    <None Remove="Data\Repositories\Handlebars\Templates\Dto.hbs" />
+    <None Remove="Data\Repositories\Handlebars\Templates\SchemaRepository.hbs" />
+    <None Remove="Data\Repositories\Handlebars\Templates\SchemaRepositoryAddType.hbs" />
+    <None Remove="Data\Repositories\Handlebars\Templates\SchemaRepositoryMethods.hbs" />
+    <None Remove="Data\Repositories\Handlebars\Templates\Wrapper.hbs" />
+    <None Remove="Data\Repositories\Handlebars\Templates\WrapperForeignKeyProperty.hbs" />
+    <None Remove="Data\Repositories\Handlebars\Templates\XrefLeftProperty.hbs" />
+    <None Remove="Data\Repositories\Handlebars\Templates\XrefRightProperty.hbs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\Repositories\Handlebars\Templates\ChildPrimaryKeyProperty.hbs" />
+    <EmbeddedResource Include="Data\Repositories\Handlebars\Templates\Dto.hbs" />
+    <EmbeddedResource Include="Data\Repositories\Handlebars\Templates\SchemaRepository.hbs" />
+    <EmbeddedResource Include="Data\Repositories\Handlebars\Templates\SchemaRepositoryAddType.hbs" />
+    <EmbeddedResource Include="Data\Repositories\Handlebars\Templates\SchemaRepositoryMethods.hbs" />
+    <EmbeddedResource Include="Data\Repositories\Handlebars\Templates\Wrapper.hbs" />
+    <EmbeddedResource Include="Data\Repositories\Handlebars\Templates\WrapperForeignKeyProperty.hbs" />
+    <EmbeddedResource Include="Data\Repositories\Handlebars\Templates\XrefLeftProperty.hbs" />
+    <EmbeddedResource Include="Data\Repositories\Handlebars\Templates\XrefRightProperty.hbs" />
+  </ItemGroup>
+
+</Project>
